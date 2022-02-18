@@ -7,7 +7,6 @@ public class Collect : MonoBehaviour
 {
    public int score;
    public Text points;
-   private Camera mainCamera;
    public GameObject Button;
    private void OnTriggerEnter2D(Collider2D kickAss)
    {
